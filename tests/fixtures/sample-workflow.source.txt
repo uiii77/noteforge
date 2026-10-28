@@ -1,0 +1,12 @@
+AUDIT SIDECAR: do not substitute this text for image reading.
+Title: Toy sample workflow — training example
+Subtitle: Read each branch label. This is not a real laboratory protocol.
+Nodes: Receive sample; Label present?; Hold for clarification; Record ID; Temperature <= 8 C?; Flag temperature exception; Accept for test.
+Directed edges:
+Receive sample -> Label present?
+Label present? --No--> Hold for clarification
+Label present? --Yes--> Record ID
+Record ID -> Temperature <= 8 C?
+Temperature <= 8 C? --No--> Flag temperature exception
+Temperature <= 8 C? --Yes--> Accept for test
+No return arrows, extra outcomes or steps appear in the source.

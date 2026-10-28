@@ -1,0 +1,17 @@
+Page 1
+Measurement Notes — 1. Errors
+A measurement reports a value together with a unit.
+Random error changes unpredictably between repeated measurements.
+Systematic error shifts results in a consistent direction.
+Repeating and averaging can reduce random variation.
+Averaging does not by itself remove a systematic offset.
+Example: a balance that reads 0.20 g too high has an offset.
+
+Page 2
+Measurement Notes — 2. Reporting
+Three measured masses: 10.1 g, 10.2 g, 10.3 g.
+Their arithmetic mean is 10.2 g.
+Report the unit and how the value was obtained.
+This handout does not provide instrument uncertainty.
+Do not infer instrument uncertainty from the displayed decimal places.
+The example balance offset is not stated to apply to these three masses.

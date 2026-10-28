@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "purpose": "Metadata-only intent-routing review; actual host automatic invocation must be tested separately. Labels were authored before evaluation.",
+  "cases": [
+    {
+      "id": "t01",
+      "should_trigger": true,
+      "query": "把这份 PPT 整理成中文 Markdown 课程笔记。"
+    },
+    {
+      "id": "t02",
+      "should_trigger": true,
+      "query": "My lecture scribbles are disorganized. Turn them into readable study notes."
+    },
+    {
+      "id": "t03",
+      "should_trigger": true,
+      "query": "将这篇教材文章转成结构化学习笔记，保留定义和例子。"
+    },
+    {
+      "id": "t04",
+      "should_trigger": true,
+      "query": "Merge these PDF and Word handouts into one set of revision notes."
+    },
+    {
+      "id": "t05",
+      "should_trigger": true,
+      "query": "这些已有笔记层级混乱，帮我按知识逻辑重新组织。"
+    },
+    {
+      "id": "t06",
+      "should_trigger": true,
+      "query": "根据课堂截图做一页复习笔记，模糊处标出来。"
+    },
+    {
+      "id": "t07",
+      "should_trigger": true,
+      "query": "Use NoteForge to organize these notes. Keep the result very short."
+    },
+    {
+      "id": "t08",
+      "should_trigger": true,
+      "query": "I have three competing lecture handouts. Build study notes and show where they disagree."
+    },
+    {
+      "id": "t09",
+      "should_trigger": true,
+      "query": "把我的零散课堂文字整理成笔记，不要加课外知识。"
+    },
+    {
+      "id": "t10",
+      "should_trigger": true,
+      "query": "Prepare comprehensive Markdown study notes from this mathematics chapter, retaining assumptions."
+    },
+    {
+      "id": "t11",
+      "should_trigger": false,
+      "query": "只翻译这句话，不做笔记：A queue is first in, first out."
+    },
+    {
+      "id": "t12",
+      "should_trigger": false,
+      "query": "Extract every word from this PDF verbatim. Do not summarize or reorganize it."
+    },
+    {
+      "id": "t13",
+      "should_trigger": false,
+      "query": "什么是二分查找？用一句话解释。"
+    },
+    {
+      "id": "t14",
+      "should_trigger": false,
+      "query": "Fix the syntax error in this C program; return only the corrected code."
+    },
+    {
+      "id": "t15",
+      "should_trigger": false,
+      "query": "把这批学习资料文件重命名，并移动到 courses 文件夹。"
+    },
+    {
+      "id": "t16",
+      "should_trigger": false,
+      "query": "Convert this DOCX file to PDF, preserving the layout."
+    },
+    {
+      "id": "t17",
+      "should_trigger": false,
+      "query": "Translate my existing study notes into English without restructuring or adding anything."
+    },
+    {
+      "id": "t18",
+      "should_trigger": false,
+      "query": "帮我写一封申请延期提交课堂笔记的邮件。"
+    },
+    {
+      "id": "t19",
+      "should_trigger": false,
+      "query": "今天过得怎么样？"
+    },
+    {
+      "id": "t20",
+      "should_trigger": false,
+      "query": "Summarize this quarterly revenue report for a board meeting; make an executive memo."
+    },
+    {
+      "id": "t21",
+      "should_trigger": true,
+      "query": "把这些课堂材料整理成康奈尔笔记，代码单独放。"
+    },
+    {
+      "id": "t22",
+      "should_trigger": true,
+      "query": "Turn this chapter into reading notes with a concept map, then export the notes to DOCX if possible."
+    },
+    {
+      "id": "t23",
+      "should_trigger": false,
+      "query": "Convert existing-notes.md to DOCX and PDF without summarizing, restructuring or changing the content."
+    },
+    {
+      "id": "t24",
+      "should_trigger": false,
+      "query": "只把这张组织架构截图转写为 Mermaid，保留全部连线，不需要任何学习笔记。"
+    }
+  ]
+}

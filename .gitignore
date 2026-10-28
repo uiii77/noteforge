@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+
+# Local documentation and development evidence, excluded from the initial release.
+README.md
+README.zh-CN.md
+tests/RESULTS.md
+tests/results.json
+tests/release-smoke.json
+
+# Generated export duplicates; keep the editable Markdown examples.
+examples/reading-notes.html
+examples/reading-notes.docx
+examples/reading-notes.pdf

@@ -1,0 +1,9 @@
+AUDIT SIDECAR: not an input substitute for image evaluation.
+Visible text:
+Class notes: series circuits
+R_total = R1 + R2
+Current is the same through every resistor.
+Example: R1 = 2 ohm, R2 = 3 ohm
+Therefore R_total = 5 ohm.
+Measured current: [fully masked; no recoverable value]
+The masked rectangle contains no readable numerical measurement.

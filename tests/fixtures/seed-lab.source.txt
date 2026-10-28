@@ -1,0 +1,10 @@
+Seed Germination Lab
+Section: Question and controls
+Question: does light change germination in this classroom trial?
+Each group has 20 seeds of the same variety. Water volume, temperature and observation time are held constant.
+Section: Observed counts after five days
+Group | Light condition | Germinated seeds
+A | Light | 16 of 20
+B | Dark | 12 of 20
+Section: Interpretation limits
+Group A had more germinated seeds in this trial. The trial was not replicated. The notes do not establish a universal causal effect or statistical significance.

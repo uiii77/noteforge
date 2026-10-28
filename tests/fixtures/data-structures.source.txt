@@ -1,0 +1,42 @@
+Slide 1
+Data Structures: Course Map
+Chapter 1: arrays and linked lists
+Chapter 2: stacks and queues
+Chapter 3: choosing a structure
+
+Slide 2
+Chapter 1 — Arrays
+Elements occupy contiguous storage.
+Access by index: O(1).
+Insertion at the front requires shifting elements: O(n).
+
+Slide 3
+Chapter 1 — Singly Linked Lists
+Each node stores a value and a next pointer.
+Access by position requires traversal: O(n).
+Insertion after an already known node: O(1); finding that node is separate.
+
+Slide 4
+Chapter 2 — Stacks
+Last in, first out (LIFO).
+push adds to the top; pop removes the top.
+Example: undo history.
+
+Slide 5
+Chapter 2 — Queues
+First in, first out (FIFO).
+enqueue adds at the back; dequeue removes from the front.
+Example: tasks waiting for service.
+
+Slide 6
+Chapter 3 — Selection and Boundaries
+Choose an array for frequent indexed reads.
+Choose a stack when the most recent item must be processed first.
+Choose a queue when arrival order must be preserved.
+This course does not specify thread safety or memory-management policy.
+
+Slide 7
+Chapter 3 — Review
+A linked-list O(1) insertion claim assumes the target node is already known.
+State the operation and its assumptions when quoting complexity.
+LIFO and FIFO describe removal order, not a particular storage layout.
